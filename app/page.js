@@ -59,56 +59,12 @@ https://api.whatsapp.com/send?phone=5554997040128&text=Ol%C3%A1!%20Eu%20gostaria
       </div>
     </div>
 
-          <section className="mt-12">
-            <h3 className="text-3xl font-bold text-center text-blue-600">
-              Nossos <span className="text-blue-600">Serviços</span>
-            </h3>
-            <p className="text-gray-600 text-center mt-2">
-              Cuidado especializado para suas roupas do dia a dia, garantindo
-              frescor e limpeza a cada lavagem.
-            </p>
-            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-                <Image
-                  src="/laundry.jpg"
-                  alt="Lavanderia"
-                  width={300}
-                  height={200}
-                  className="rounded-lg"
-                />
-                <h4 className="mt-4 text-lg font-semibold">Lavanderia</h4>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-                <Image
-                  src="/dry-cleaning.jpg"
-                  alt="Lavagem a Seco"
-                  width={300}
-                  height={200}
-                  className="rounded-lg"
-                />
-                <h4 className="mt-4 text-lg font-semibold">Lavagem a Seco</h4>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-                <Image
-                  src="/shoe-cleaning.jpg"
-                  alt="Limpeza de Sapatos"
-                  width={300}
-                  height={200}
-                  className="rounded-lg"
-                />
-                <h4 className="mt-4 text-lg font-semibold">Limpeza de Sapatos</h4>
-              </div>
-            </div>
-            <div className="mt-6 flex justify-between">
-              <button className="bg-transparent border-2 border-gray-300 text-gray-700 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition duration-300">
-                Anterior
-              </button>
-              <button className="bg-transparent border-2 border-gray-300 text-gray-700 px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition duration-300">
-                Próximo
-              </button>
-            </div>
-          </section>
+         
         </div>
+
+       
+
+
       </main>
       <Footer />
     </div>

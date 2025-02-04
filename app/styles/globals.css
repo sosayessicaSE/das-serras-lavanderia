@@ -295,25 +295,11 @@ h2 {
 /* Footer container */
 footer {
   text-align: center;
-  background-color: #006f8e;
-  color: white;
   padding: 20px;
   margin-top: 40px;
   font-size: 1rem;
 }
 
-/* Footer link styles */
-footer a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-/* Footer link hover effect */
-footer a:hover {
-  color: #ffd700; /* Gold for hover effect */
-}
 
 /* ================================
          RESPONSIVE DESIGN
