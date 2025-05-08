@@ -1,15 +1,11 @@
-import React from 'react';
-import './styles/globals.css'; 
+import './styles/globals.css';
 
 const Layout = ({ children }) => {
   return (
     <html lang="en">
       <head>
         <title>Das Serras Lavanderia</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="icon" href="/images/das-serras.png" />
       </head>
       <body>
         <main>{children}</main>

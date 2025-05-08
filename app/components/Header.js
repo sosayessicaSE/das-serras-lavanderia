@@ -1,13 +1,13 @@
-import Link from "next/link";
-import "../styles/globals.css"; 
 import Image from "next/image";
+import Link from "next/link";
+import "../styles/globals.css";
 
 export default function Header() {
   return (
     <header className="header">
-      <div className="image-container relative w-full h-[600px]"> {/* Adjust height here */}
+      <div className="image-container relative w-full h-[600px]"> 
       <Image
-  src="/images/portada.png"
+  src="/images/portada.svg"
   alt="Lavanderia Das Serras"
   layout="intrinsic"
   width={1500}
